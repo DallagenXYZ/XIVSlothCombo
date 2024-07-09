@@ -2276,7 +2276,7 @@ namespace XIVSlothCombo.Combos
 
         #region PALADIN
 
-        //// Last value = 11032
+        //// Last value = 11034
 
         [ConflictingCombos(PLD_ST_AdvancedMode)]
         [ReplaceSkill(PLD.FastBlade)]
@@ -2341,6 +2341,10 @@ namespace XIVSlothCombo.Combos
         [CustomComboInfo("Blades of Faith/Truth/Valor Option", "Adds Blades of Faith/Truth/Valor to Advanced Mode", PLD.JobID)]
         PLD_ST_AdvancedMode_Blades = 11014,
 
+        [ParentCombo(PLD_ST_AdvancedMode)]
+        [CustomComboInfo("Blades of Honor Option", "Adds Blades of Honor to Advanced Mode after Valor", PLD.JobID)]
+        PLD_ST_AdvancedMode_BladesOfHonor = 11033,
+
         [ConflictingCombos(PLD_AoE_SimpleMode)]
         [ReplaceSkill(PLD.TotalEclipse)]
         [CustomComboInfo("Advanced Mode - AoE", $"Replaces Total Eclipse with a one-button full AoE rotation.\nThese features are ideal if you want to customize the rotation.", PLD.JobID)]
@@ -2375,6 +2379,10 @@ namespace XIVSlothCombo.Combos
         PLD_AoE_AdvancedMode_Blades = 11022,
 
         [ParentCombo(PLD_AoE_AdvancedMode)]
+        [CustomComboInfo("Blades of Honor Option", "Adds Blades of Honor to Advanced Mode after Valor", PLD.JobID)]
+        PLD_AoE_AdvancedMode_BladesOfHonor = 11034,
+
+        [ParentCombo(PLD_AoE_AdvancedMode)]
         [CustomComboInfo("Sheltron / Holy Sheltron Option", "Adds Sheltron / Holy Sheltron to Advanced Mode", PLD.JobID)]
         PLD_AoE_AdvancedMode_Sheltron = 11023,
 
@@ -2402,7 +2410,7 @@ namespace XIVSlothCombo.Combos
         [CustomComboInfo("Ultimatum Option", "Use Variant Ultimatum on cooldown.", PLD.JobID)]
         PLD_Variant_Ultimatum = 11032,
 
-        //// Last value = 11032
+        //// Last value = 11034
 
         #endregion
 
