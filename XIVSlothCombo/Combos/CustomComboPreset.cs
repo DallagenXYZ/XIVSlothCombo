@@ -2916,9 +2916,9 @@ namespace XIVSlothCombo.Combos
             [ParentCombo(SGE_AoE_DPS)]
             [CustomComboInfo("Addersgall Overflow Protection", "Weaves Druochole when Addersgall gauge is greater than or equal to the specified value.", SGE.JobID, 6, "", "")]
             SGE_AoE_DPS_AddersgallProtect = 14053,
-        [ParentCombo(SGE_AoE_DPS)]
-        [CustomComboInfo("Rhizomata Option", "Weaves Rhizomata when Addersgall gauge falls below the specified value.", SGE.JobID, 5, "", "")]
-        SGE_AoE_DPS_Rhizo = 14013,
+
+
+
         #endregion
 
         #region Diagnosis Simple Single Target Heal
